@@ -1,0 +1,56 @@
+/* 
+***Valores Globales
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --bgd--color--header: #02031d;
+  --color--text--yellow: #fc8f00;
+}
+.box{
+  max-width: 1204px;
+  margin: 0 auto;
+}
+/* 
+***Header***
+*/
+.header{
+  height: 60px;
+  background-color: var(--bgd--color--header);
+}
+.header__flex{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__flex--icon{
+  width: 40px;
+  height: 40px;
+}
+.header__flex--space{
+  margin-right: 20px;
+}
+/* 
+***navbar***
+*/
+.navbar{
+  margin-top: 30px;
+}
+.navbar__nav--list{
+  margin-bottom: 50px;
+}
+.navbar__list--item{
+  margin-bottom: 15px;
+}
+.navbar__item--link{
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--bgd--color--header);
+}
+.navbar__item--link:hover{
+  color: var(--color--text--yellow);
+}
